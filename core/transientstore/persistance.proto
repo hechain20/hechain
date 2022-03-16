@@ -1,0 +1,15 @@
+/*
+Copyright hechain. All Rights Reserved.
+
+SPDX-License-Identifier: Apache-2.0
+*/
+
+syntax = "proto3";
+
+option go_package = "github.com/hechain20/hechain/core/transientstore";
+
+package transientstore;
+
+message PendingDeleteStorageList {
+    repeated string list = 1;
+}
